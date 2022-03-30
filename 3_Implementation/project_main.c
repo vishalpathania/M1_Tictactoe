@@ -19,13 +19,7 @@ int main()
     unsigned char user1[30], user2[30], winner;
     int ival, jval;
 
-    printf("\nEnter name of user1 :");
-    fgets(user1);
-    fflush(stdin);
-
-    printf("Enter name of user2 :");
-    fgets(user2);
-    fflush(stdin);
+   
 
 again:
     system("clear");
