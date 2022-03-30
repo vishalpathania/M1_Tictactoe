@@ -88,3 +88,6 @@ It can be implemented in a business strategy to help improve it. Business strate
 ||||
 |LR08 |If the total number of moves, i.e., 9 moves have been completed and neithe the user nor the computer has won, it'll end up in a draw. |HR06 |
 ||||
+## SWOT ANALYSIS![swot1](https://user-images.githubusercontent.com/94157594/142618767-dfc8280f-5cdc-4a4b-84a0-aef6c37b2eac.png)
+## Defining system
+ ![flowchart1](https://user-images.githubusercontent.com/94157594/142607595-d81b3efc-1e52-4956-b3f5-8a2d93265531.png)
