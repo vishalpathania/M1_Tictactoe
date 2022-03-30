@@ -3,7 +3,7 @@ TEST_PROJ_NAME = Test_$(PROJ_NAME)
 
 BUILD_DIR = Build
 
-SRC = src/main.c
+SRC = src/check_draw.c
 
 
 TEST_SRC = test.c\
@@ -35,7 +35,7 @@ run: all
 	$(call FixPath,$(BUILD_DIR)/$(PROJ_NAME).$(EXEC))
 
 test: $(SRC) $(TEST_SRC)
-	gcc $^ $(INC) -o $(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
+	gcc  $^ $(INC) -o $(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
 	$(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
 
 coverage:${PROJECT_NAME}
