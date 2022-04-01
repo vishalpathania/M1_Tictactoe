@@ -3,8 +3,8 @@
 * Calculator application with 4 mathematical operations
 *
 */
+#ifndef __game_operations_h__
+#define __game_operations_h__
 #include<stdio.h>
 #include<stdlib.h>
-#include <windows.h>
-#include <conio.h>
-int check_draw(int turn);
+#endif

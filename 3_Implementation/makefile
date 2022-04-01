@@ -3,7 +3,7 @@ TEST_PROJ_NAME = Test_$(PROJ_NAME)
 
 BUILD_DIR = Build
 
-SRC = src/check_draw.c
+SRC = src/main.c
 
 
 TEST_SRC = test.c\
